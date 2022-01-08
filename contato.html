@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="CSS/normalize.css">
+
+    <!-- Reset CSS -->
+    <link rel="stylesheet" href="CSS/reset.css">
+
+    <!-- Grid CSS -->
+    <link rel="stylesheet" href="CSS/grid.css">
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/contato.css">
+    <link rel="stylesheet" href="CSS/responsivo.css">
+
+    <script>document.documentElement.classList.add("js");</script>
+
+    <!--[if lt IE 9]>
+	    <script src="html5shiv.js"></script>
+    <![endif]-->
+
+    <title>Contato - Bikcraft</title>
+
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="grid-4"><img src="img/bikcraft.svg" alt="Bikecraft"></a>
+
+            <nav class="grid-12 header_menu">
+                <ul>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="portfolio.html">Portifólio</a></li>
+                    <li><a href="contato.html" class="menu_ativo">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="introducao-interna interna_contato">
+        <div class="container">
+            <h1 data-anime="400" class="fadeInDown">Contato</h1>
+            <p data-anime="800" class="fadeInDown">Tire as suas dúvidas com a gente</p>
+        </div>
+    </section>
+
+    <section class="contato container fadeInDown" data-anime="1200">
+            <form action="" id="form_orcamento" class="contato_form grid-8">
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome" required>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+                <label for="telefone">Telefone</label>
+                <input type="tel" name="telefone" id="telefone" placeholder="(21)3232-4567" pattern="([0-9]){2}[0-9]{4}-[0-9]{4}" required>
+                <label for="mensagem">Mensagem</label>
+                <textarea name="mensagem" id="mensagem" required></textarea>
+                <button type="submit" class="btn btn-preto">Enviar</button>
+            </form>
+
+            <div class="contato_dados grid-8">
+                <h3>Dados</h3>
+                <span>+55 12 3144-1761</span>
+                <span>orcamento@bikcraft.com</span>
+                <span>Rua Antonio Molinaro, 12 - Bairro Lucrécia Pinto</span>
+                <span>Cruzeiro - SP - Brasil</span>
+
+                <div class="contato_redes">
+                    <h3>Redes Sociais</h3>
+                    <ul>
+                        <li><a href="http://www.facebook.com" target="_blank"><img src="img/redes-sociais/facebook.svg"
+                                    alt=""></a></li>
+                        <li><a href="http://www.instagram.com" target="_blank"><img
+                                    src="img/redes-sociais/instagram.svg" alt=""></a></li>
+                        <li><a href="http://www.twitter.com" target="_blank"><img src="img/redes-sociais/twitter.svg"
+                                    alt=""></a></li>
+                    </ul>
+                </div>
+            </div>
+    </section>
+
+    <section class="container fadeInDown" data-anime="1600">
+        <iframe class="grid-16 mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.1447114916728!2d-44.97498854865223!3d-22.573690331674065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9df5d9e9b921b3%3A0x6ed75069e0001f92!2sR.%20Ant%C3%B4nio%20Molinaro%2C%2012%20-%20Vila%20Regina%20Celia%2C%20Cruzeiro%20-%20SP%2C%2012705-360!5e0!3m2!1sen!2sbr!4v1619407474561!5m2!1sen!2sbr" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+    <footer>
+        <div class="footer">
+
+            <div class="container">
+
+                <div class="grid-8 footer_historia">
+                    <h3>Nossa história</h3>
+                    <p>
+                        O verdadeiro segredo da felicidade está em ter um genuíno interesse por todos os detalhes da
+                        vida cotidiana. Interesse por todos os detalhes da vida cotidiana.
+                    </p>
+                </div>
+
+                <div class="grid-4 footer_contato">
+                    <h3>Contato</h3>
+                    <ul>
+                        <li>- (21) 2323 - 3322</li>
+                        <li>- contato@bikcraft.copm</li>
+                        <li>- Botafogo - RJ</li>
+                    </ul>
+                </div>
+
+                <div class="grid-4 footer_redes">
+                    <h3>Redes Sociais</h3>
+                    <ul>
+                        <li><a href="http://www.facebook.com" target="_blank"><img src="img/redes-sociais/facebook.svg"
+                                    alt=""></a></li>
+                        <li><a href="http://www.instagram.com" target="_blank"><img
+                                    src="img/redes-sociais/instagram.svg" alt=""></a></li>
+                        <li><a href="http://www.twitter.com" target="_blank"><img src="img/redes-sociais/twitter.svg"
+                                    alt=""></a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="copy">
+            <div class="container">
+                <p class="grid-16">Bikcraft 2021 - Alguns direitos reservados</p>
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="./js/simple-anime.js"></script>
+    <script src="./js/script.js"></script>
+
+</body>
+
+</html>

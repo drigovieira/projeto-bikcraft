@@ -1,0 +1,1 @@
+Projeto de um site para vendas de biciletas feito no curso de Web Design Completo dado pela Origamid. Nesse projeto o foco principal foi HTML e CSS, sendo introduzido Javascript e CSS, porém sem explicações aprofundadas.
